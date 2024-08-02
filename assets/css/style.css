@@ -157,6 +157,22 @@ h1, p {
   }
   .button-1{
     border-radius: 10px;
+    .button-1 {
+      background-color: green;
+      color: white; /* Optional: to ensure the text is readable */
+      padding: 10px 20px; /* Adjust padding as needed */
+      border: none; /* Remove border if any */
+      border-radius: 4px; /* Optional: to round the corners */
+      text-align: center;
+      text-decoration: none; /* Remove underline */
+      display: inline-block;
+      transition: background-color 0.3s ease; /* Optional: for a smooth transition on hover */
+    }
+    
+    .button-1:hover {
+      background-color: darkgreen; /* Optional: change color on hover */
+    }
+    
   }
   .navbar-nav {
   }
@@ -188,7 +204,7 @@ h1, p {
   .heading-2{
     font-size:28px;
     font-weight: 700;
-    color:#d63384;
+    color:#14862d;
 
   }
   #datetime-section {
@@ -214,7 +230,7 @@ h1, p {
   background-color: #facde3;
 }
 .card-title{
-  color:#d63384;
+  color:#147a42;
 
 }
 .card-x{
