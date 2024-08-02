@@ -1,0 +1,222 @@
+.part-1{
+    display: flex;
+   
+}
+.bu-1{
+    height: 60px;
+    margin-top:330px;
+    text-align: center;
+    padding-top:20px;
+    width: 170px;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
+    font-weight: 700;
+    justify-content: center;
+}
+.bu-1:hover{
+    color: aliceblue;
+}
+.bu-2{
+    
+    height: 60px;
+    text-align: center;
+    margin-left:14%;
+    padding-top:20px;
+    width: 200px;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
+    font-weight: 700;
+}
+#card{
+width:auto;  
+margin:28px;/* From https://css.glass */
+background:  #344767;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+color:#fff;
+padding:10px;
+text-align: center;
+}
+.head-2{
+    font-size: 25px;
+    text-transform:capitalize;
+    text-align: center;
+    color: black;
+}
+.card-div{
+    padding:10px;
+}
+@media only screen and (max-width: 600px) {
+    .lapimage {
+        width:400px;
+   }
+   .part-1{
+    display: block;
+   }
+   .bu-1{
+    height: 60px;
+    margin-top:330px;
+    text-align: center;
+    margin-left:40%;
+    width:auto;
+    padding:2%;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
+    font-weight: 700;
+    
+}
+.part-2{
+    margin-top:70px;
+    justify-content: center;
+
+}
+#button-nav{
+    margin-right:30%;
+    
+}
+
+}
+  .bu-content{
+    text-align: center;
+    margin-top:50px;
+  }
+  .text-white {
+    color: white;
+}
+
+.pt-3 {
+    padding-top: 1rem;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.lead {
+    font-size: 1.25rem;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h1, p {
+    animation: fade-in 4s ease-in-out;
+}
+.bg-gradient-primary {
+    background-image: linear-gradient(to bottom, #ff6600, #ff9900);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: transform 0.3s;
+  }
+
+  .bg-gradient-primary:hover {
+    transform: scale(1.1);
+  }
+  
+  .lapimage {
+    transition: transform 0.5s ease-in-out;
+  }
+  .content-animation {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+  }
+
+  .image-animation {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+  }
+
+  /* Animation on page load */
+  .content-animation.active {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .image-animation.active {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .button-1{
+    border-radius: 10px;
+  }
+  .navbar-nav {
+  }
+  #form-control{
+    border:2px solid rgb(218, 208, 208);
+    }
+    .glassmorphism {
+      background: rgba(255, 255, 255, 0.747); /* Adjust transparency as needed */
+      backdrop-filter: blur(10px); /* Adjust blur amount as needed */
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px;
+      min-width:200px;
+      min-height:200px;
+      text-align: center;
+      
+  }
+  .glassmorphism p{
+    color: black
+    ;
+  }
+  .first-row{
+
+  }
+  .heading{
+    font-size:30px;
+    font-weight: 800;
+  }
+  .heading-2{
+    font-size:28px;
+    font-weight: 700;
+    color:#d63384;
+
+  }
+  #datetime-section {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#logo {
+    max-width: 100px;
+    height: auto;
+}
+.logo-heading-container {
+  display: flex;
+  align-items: center; /* Vertically align items */
+}
+
+#logo {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+.update{
+  background-color: #facde3;
+}
+.card-title{
+  color:#d63384;
+
+}
+.card-x{
+
+}
