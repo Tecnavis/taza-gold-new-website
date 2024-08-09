@@ -188,6 +188,8 @@ h1, p {
       min-width:200px;
       min-height:200px;
       text-align: center;
+      /* display: flex; align-items: center;justify-content: center;gap: 33px; */
+
       
   }
   .glassmorphism p{
@@ -235,4 +237,93 @@ h1, p {
 }
 .card-x{
 
+}
+
+
+
+/* Mobile view adjustments */
+@media (max-width: 991px) {
+  .navbar-brand {
+      display: none; /* Hide the logo */
+  }
+
+  .collapse.navbar-collapse {
+      text-align: center;
+  }
+
+  .navbar-nav {
+      display: flex;
+      flex-direction: column; /* Stack links vertically */
+      align-items: center;
+  }
+
+  .d-flex {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  /* Hide the Live rate button in mobile view */
+  #button-nav {
+      display: none;
+  }
+}
+
+/* Mobile view adjustments */
+@media (max-width: 991px) {
+  .navbar {
+      background-color: transparent !important; /* Remove navbar background in mobile view */
+  }
+
+  .navbar-brand {
+      display: none; /* Hide the logo */
+  }
+
+  .collapse.navbar-collapse {
+      text-align: center;
+  }
+
+  .navbar-nav {
+      display: flex;
+      flex-direction: column; /* Stack links vertically */
+      align-items: center;
+  }
+
+  .d-flex {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  /* Hide the Live rate button in mobile view */
+  #button-nav {
+      display: none;
+  }
+}
+
+/* Breadcrumb right alignment and no background */
+.breadcrumb {
+  background-color: transparent; /* Remove background color */
+  text-align: right; /* Right-align the breadcrumb */
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Desktop view adjustments */
+@media (min-width: 992px) {
+  .navbar {
+      background-color: transparent !important; /* Make the navbar background transparent */
+  }
+
+  .d-flex {
+      justify-content: space-between;
+  }
+
+  .navbar-brand {
+      margin-right: auto; /* Align logo to the left */
+      display: inline-block; /* Show the logo */
+  }
+
+  #button-nav {
+      margin-left: auto; /* Align button to the right */
+      display: inline-block; /* Show the button */
+  }
 }
